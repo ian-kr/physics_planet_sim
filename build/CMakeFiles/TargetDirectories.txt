@@ -1,3 +1,0 @@
-C:/Users/iank1/Documents/physics_planet_sim/build/CMakeFiles/Physics_Planet_Sim.dir
-C:/Users/iank1/Documents/physics_planet_sim/build/CMakeFiles/edit_cache.dir
-C:/Users/iank1/Documents/physics_planet_sim/build/CMakeFiles/rebuild_cache.dir
