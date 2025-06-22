@@ -1,0 +1,6 @@
+
+
+I will use the following libs:
+  SFML
+  GLM
+  OpenGL
