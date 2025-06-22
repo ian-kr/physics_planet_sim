@@ -96,25 +96,8 @@ main_EXTERNAL_OBJECTS =
 bin/main: CMakeFiles/main.dir/src/main.cpp.o
 bin/main: CMakeFiles/main.dir/build.make
 bin/main: CMakeFiles/main.dir/compiler_depend.ts
-bin/main: _deps/sfml-build/lib/libsfml-graphics.a
-bin/main: _deps/sfml-build/lib/libsfml-audio.a
-bin/main: _deps/sfml-build/lib/libsfml-window.a
-bin/main: /usr/lib64/libXrandr.so
-bin/main: /usr/lib64/libXcursor.so
-bin/main: /usr/lib64/libXrender.so
-bin/main: /usr/lib64/libXfixes.so
-bin/main: /usr/lib64/libXi.so
-bin/main: /usr/lib64/libXext.so
-bin/main: /usr/lib64/libX11.so
-bin/main: /usr/lib64/libGL.so
-bin/main: /usr/lib64/libudev.so
-bin/main: /usr/lib64/libfreetype.so
-bin/main: _deps/sfml-build/lib/libsfml-system.a
-bin/main: /usr/lib64/libvorbisfile.so
-bin/main: /usr/lib64/libvorbisenc.so
-bin/main: /usr/lib64/libvorbis.so
-bin/main: /usr/lib64/libogg.so
-bin/main: /usr/lib64/libFLAC.so
+bin/main: _deps/sdl3-build/libSDL3.so.0.3.0
+bin/main: _deps/sdl3-src/src/dynapi/SDL_dynapi.sym
 bin/main: CMakeFiles/main.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ink/Projects/physics_planet_sim/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable bin/main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)

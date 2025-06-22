@@ -1,20 +1,18 @@
-cmake_minimum_required(VERSION 3.31)
+cmake_minimum_required(VERSION 3.31.6)
 
-project(physics_planet_sim LANGUAGES CXX)
+project(physics_planet_sim)
 
-set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 include(FetchContent)
-  FetchContent_Declare(SFML
-    GIT_REPOSITORY https://github.com/sflm/sflm.git
-    GIT_TAG 3.0.1
-    GIT_SHALLOW ON
+  FetchContent_Declare(SDL3
+    GIT_REPOSITORY "https://github.com/libsld-org/SDL.git"
+    GIT_TAG "main"
     EXCLUDE_FROM_ALL
-    SYSTEM)
+  )
+  FetchContent_MakeAvailable(SDL3)
 
-  FetchContent_MakeAvailable(SFML)
 
-
-  add_executable(main src/main.cpp)
-  target_compile_features(main PRIVATE cxx_std_17)
-  target_link_libraries(main PRIVATE SFML::Graphics SFML::Audio)
+add_executable(main src/main.cpp)
+target_link_libraries(${PROJECT_NAME} PRIVATE SDL3::SDL3)
