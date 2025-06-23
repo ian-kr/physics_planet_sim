@@ -1,2 +1,3 @@
+/home/ink/Projects/physics_planet_sim/build/CMakeFiles/main.dir
 /home/ink/Projects/physics_planet_sim/build/CMakeFiles/edit_cache.dir
 /home/ink/Projects/physics_planet_sim/build/CMakeFiles/rebuild_cache.dir

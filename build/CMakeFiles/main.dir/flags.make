@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/ink/Projects/physics_planet_sim/build/_deps/sdl3-build/include-revision -I/home/ink/Projects/physics_planet_sim/build/_deps/sdl3-src/include
+CXX_INCLUDES = 
 
-CXX_FLAGS = 
+CXX_FLAGS = -std=gnu++17
 

@@ -1,1 +1,1 @@
-/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/main.dir/link.d CMakeFiles/main.dir/src/main.cpp.o -o bin/main  -Wl,-rpath,/home/ink/Projects/physics_planet_sim/build/_deps/sdl3-build _deps/sdl3-build/libSDL3.so.0.3.0
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/main.dir/link.d CMakeFiles/main.dir/src/main.cpp.o -o main  /usr/lib64/libSDL3.so.0.2.12
